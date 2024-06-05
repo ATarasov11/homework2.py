@@ -1,5 +1,5 @@
-amount_tasks=', всего задач:'
-number_of_hours=', затрачено часов: '
-name_course='Курс: '
-mean_time=', среднее время выполнения'
-print((name_course+'Python'+amount_tasks+'12'+number_of_hours+'1.5'+mean_time),(1.5/12),'часа.')
+amount_tasks = 12
+number_of_hours = 1.5
+name_course = 'Python'
+mean_time = 1.5/12
+print('Курс:', name_course,', всего задач:', amount_tasks,', затрачено часов:', number_of_hours,', среднее время выполнения',mean_time,' часа')
